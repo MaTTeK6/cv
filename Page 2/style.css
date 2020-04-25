@@ -1,0 +1,77 @@
+body,html
+{
+    width: 100%;
+    height: 100%;
+    margin:0;
+    padding: 0;
+}
+
+
+
+.row1,
+.row2
+
+{
+    flex-direction: column !important;
+    flex-wrap: wrap !important;
+    width: 100% !important;
+    
+  
+}
+.container
+{
+    width: 100% !important;
+    height: 100% !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding:0 !important;
+}   
+.row
+
+{
+  
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100% !important;
+    position: fixed !important;
+ 
+
+}
+.row1{
+    width: 100% !important;
+    height: 100% !important;
+    background-color: white;
+
+    
+}
+.row2{
+    width: 100% !important;
+    height: 100% !important;
+    background-color: black !important;
+
+}
+.nawigacja,
+.navik
+{
+    list-style: none !important;
+    justify-content: space-between !important;
+    
+   
+}
+.nawigacja
+{
+    min-height: 10vh !important;
+    width:100% !important;
+    align-items: center !important;
+    
+}
+.cols
+{
+    justify-content: space-between !important;
+   
+    flex-grow: 0 !important;
+}
+.lover
+{
+    background-color: yellow !important;
+}
