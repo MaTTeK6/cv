@@ -1,24 +1,20 @@
-*
-{
-    margin:0;
-    padding: 0;
-    box-sizing: border-box;
 
-    
-  
-}
-html {
-    scroll-behavior: smooth;
+html
+{
     width: 100% !important;
     height: 100% !important;
-  }
+    margin: auto   ;
+    padding: auto;
+    display: block !important;
+    -webkit-text-size-adjust: 100% !important;
+}
+
 
 body
 {
     font-family:sans-serif;
-    width: 100% !important;
-    height: 100% !important;
-   
+    width: 100%;
+    margin: auto;
 }
 
 header
@@ -102,7 +98,7 @@ a:hover
 }
 .box
 {
-    width:auto;
+    width:100%;
     height: auto!important;
    background-color: white;
    position: relative !important;
@@ -112,7 +108,7 @@ a:hover
 }
 .boxx
 {
-    width:auto;
+    width:100%;
     height: auto;
     background-color: white !important;
     display: block !important;
@@ -125,17 +121,18 @@ a:hover
 section
 {
     
-    min-height: 100%;
     display: flex !important;
     justify-content: center;
     align-items: center;
     width: auto;
+    height: auto;
+    
 }
 
 .box::after
 {
     content:"";
-    width: 100%;
+    width: 100% ;
     height: 100%;
     position: absolute;
     top: 0;
@@ -223,6 +220,8 @@ section
 .slajder2
 {
     z-index: 2 !important;
+    width: auto;
+    height: auto;
 }
 
 h2
@@ -297,9 +296,9 @@ p{
 {
     top: 60%;
     position: absolute;
-    left: 2%;
-    width: auto;
-    height: auto;
+    
+    width: 100%;
+    height: 30%;
 }
 .obrazki{
     width: 250px;
@@ -364,5 +363,7 @@ p{
 {
     width:100% !important;
     height: 100% !important;
+    margin:auto;
+    position: static;
 
 }

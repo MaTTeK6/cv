@@ -1,4 +1,4 @@
-const slider= document.querySelector('.slider');
+const slider= document.querySelector(".slider");
 const slider2= document.querySelector('.slider2');
 const logo= document.querySelector('.logo');
 const shop= document.querySelector('.shop');
