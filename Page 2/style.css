@@ -1,246 +1,123 @@
 body,html
 {
-    width: 100%;
-    height: 100%;
-    margin:0;
     padding: 0;
-    background-color: black !important;
-    flex-direction: column !important;
-    flex-wrap: wrap !important;
-  
-    
-}
-
-
-
-.row1,
-.row2
-
-{
-    flex-direction: column !important;
-    flex-wrap: wrap !important;
+    margin: 0;
     width: 100% !important;
-    text-overflow: clip !important;
-    overflow: hidden !important;
+    height: 100% ;
     
-  
+    
 }
 .container
 {
-    width: 100% !important;
+    min-width: 100% !important;
     height: 100% !important;
-    max-width: 100% !important;
     margin: 0 !important;
     padding:0 !important;
-    
-}   
-.row
-
+}
+.row1,
+.row2
 {
-  
-    margin: 0 !important;
+    display: flex !important;
+    flex-direction: column !important;
     padding: 0 !important;
-    width: 100% !important;
-    position: fixed !important;
-    color: white !important;
-    z-index: 3 !important;
-    
-
+    margin: 0 !important;
 }
-
 .row1{
-    width: 100% !important;
-    height: 100% !important;
-    background-color: white;
-    flex-direction: column !important;
-    flex-wrap: wrap !important;
-    
-
-    
+    height: 200% !important;
 }
-.row2{
-    width: 100% !important;
-    height: 100% !important;
-    background-color: black !important;
-    flex-direction: column !important;
-    flex-wrap: wrap !important;
-
-}
-section
+.row2
 {
-    flex-direction: column !important;
-    flex-wrap: nowrap !important;
-    height: 100% auto;
+    height: 150% !important ;
 }
-.nawigacja,
-.navik
-{
-    list-style: none !important;
-    justify-content: space-between !important;
-    color: white !important;
-    
-   
-}
+.rowone,
+.klasa1,
 .nawigacja
 {
-    min-height: 10vh !important;
-    width:100% !important;
-    align-items: center !important;
-    background-color: black !important;
-    color:white !important;
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    position: fixed !important;
+    z-index: 4 !important;
+   
+    flex-wrap: wrap !important;
+
+}
+
+.naglowek
+{
+    flex-wrap: wrap !important;
+    font-size:28px !important;
+    font-weight: 700 !important;
+    font-family: 'Dancing Script', cursive;
+    margin-right: 0 !important;
+    
+}
+
+.nawigacja
+{
+    flex-direction: column !important;
+    box-shadow: 1px 1px 5px gray;
+    background: white !important;
     
     
+
 }
-.cols
+
+
+.nav-link
 {
-    justify-content: space-between !important;
+    position: relative !important;
+   text-align: center !important;
+   margin-right: 200px  !important;
+   left:50% !important;
+   transform: translate(-50%) !important;
+   color:black !important;
+   font-family:'Dancing Script', cursive; 
    
-    flex-grow: 0 !important;
-}
-.lover
-{
-    background-color: white !important;
-   
-}
-a
-{
-    color: white !important;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
-    font-size: 20px !important;
-}
-.color
-{
-    color:black !important;
 }
 .navbar-toggler
 {
-    background-color: white !important;
+    border:none !important;
 }
-.dropdown-menu
+
+.slajder
+
+
 {
-    background-color: black ;
-}
-.klasa
-{
-    background-color: white !important;
-}
-a:hover
-{
-    background: none !important;  
-}
-
-
-
-.slider
-{
-   position: absolute!important;
-   width: 100%!important;
-   height: 100% !important;
-   top:0 !important;
-  
-   
-   
-  
     
-}
-
-.przyciskilisty
- {
-     background-color:black !important;
-     color:black !important;
-     width: 40px !important;
-     height: 20px !important;
-   
- }
- .naglowek
- {
-     
-     font-weight: bold !important;
-     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif !important;
-     color:black !important;
-     width: 100% !important;
-     height: 100% !important;
-     left: 0 !important;
-     position: absolute !important;
-     flex-direction: column !important;
-    flex-wrap: wrap !important;
-
-     
-   
-     
-    
- }
- .naglowek2
- {
-     position: absolute !important;
-     left: 10% !important;
-     top: 20% !important;
-     width: 100% !important;
-     font-size: 6vmin !important;
-    
-    
-     
- }
- .wiersz
- {
-    font-size: 1.5vmax !important;
-    font-family: Georgia, 'Times New Roman', Times, serif !important;
-    color:black !important;
-    left:10% !important;
-    width:80% !important;
+    width: 100% !important;
+    top:30% !important;
     height: 100% !important;
-    top:33% !important;
+    left:0 !important;
     position: absolute !important;
-    text-align: justify !important;
-    flex-direction: column !important;
-    flex-wrap: wrap !important;
-
+    display: flex !important;
+    object-fit: contain !important;
+    background-origin: padding-box !important;
 
     
-    
-   
-
- }
-.klaska
+}
+.klasa2
 {
-    top: 0!important;
+    width: 100% !important;
+    top:30% !important;
     height: 100% !important;
-    
-}
-.obraz
-{
-    width: 100% ;
-    height: 100% ;
-    object-fit: cover !important;
-    position: absolute;
-    background-size: cover !important;
-    background: no-repeat !important;
-    -moz-background-size: cover;    /* ani tego */
-    background-position: center;
- 
+    left:0 !important;
+    position: absolute !important;
+    display: flex !important;
+    float:  left !important;
 }
 
-.item
+.aktywuj,
+.ob1
 {
-    width: 100%;
-    height: 100%;
+    width: 100% !important;
+    height:50% !important ;
+    position: absolute!important;
+    background-size: contain!important;
+ 
+    padding: 0 !important;
+    z-index: 3 !important;
+    left:0% !important;
+    background-origin: padding-box !important;
 }
-.item:after{
-    content:"";
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    left: 0;
-    background-color: white;
-    opacity: 0.5;
-}
-.informacje
-{
-    color:black;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif !important;
-    position: absolute ;
-    top:25%;
-    left:20%;
-    z-index: 4;
-    font-size: 5vmin;
-}
+
